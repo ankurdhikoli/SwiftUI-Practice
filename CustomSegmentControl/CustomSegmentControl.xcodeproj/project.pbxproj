@@ -12,6 +12,9 @@
 		92CC8159269E1C42001360EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CC8158269E1C42001360EE /* Assets.xcassets */; };
 		92CC815C269E1C42001360EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CC815B269E1C42001360EE /* Preview Assets.xcassets */; };
 		92CC8164269E1EB0001360EE /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CC8163269E1EB0001360EE /* SegmentControl.swift */; };
+		92CC816626A27F43001360EE /* HairModel.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = 92CC816526A27F43001360EE /* HairModel.mlmodelc */; };
+		92CC816826A27F6A001360EE /* modnet103.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = 92CC816726A27F6A001360EE /* modnet103.mlmodelc */; };
+		92CC816A26A39D6A001360EE /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 92CC816926A39D6A001360EE /* DeepLabV3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		92CC815B269E1C42001360EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92CC815D269E1C42001360EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92CC8163269E1EB0001360EE /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
+		92CC816526A27F43001360EE /* HairModel.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HairModel.mlmodelc; sourceTree = "<group>"; };
+		92CC816726A27F6A001360EE /* modnet103.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = modnet103.mlmodelc; sourceTree = "<group>"; };
+		92CC816926A39D6A001360EE /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 		92CC8148269E1C42001360EE = {
 			isa = PBXGroup;
 			children = (
+				92CC816526A27F43001360EE /* HairModel.mlmodelc */,
+				92CC816726A27F6A001360EE /* modnet103.mlmodelc */,
+				92CC816926A39D6A001360EE /* DeepLabV3.mlmodel */,
 				92CC8153269E1C42001360EE /* CustomSegmentControl */,
 				92CC8152269E1C42001360EE /* Products */,
 			);
@@ -129,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92CC816826A27F6A001360EE /* modnet103.mlmodelc in Resources */,
 				92CC815C269E1C42001360EE /* Preview Assets.xcassets in Resources */,
+				92CC816626A27F43001360EE /* HairModel.mlmodelc in Resources */,
 				92CC8159269E1C42001360EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +155,7 @@
 				92CC8157269E1C42001360EE /* ContentView.swift in Sources */,
 				92CC8155269E1C42001360EE /* CustomSegmentControlApp.swift in Sources */,
 				92CC8164269E1EB0001360EE /* SegmentControl.swift in Sources */,
+				92CC816A26A39D6A001360EE /* DeepLabV3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
